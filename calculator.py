@@ -17,7 +17,7 @@ elif operator=="+":
 elif operator=="-":
     finalResult=num1-num2
 else:
-    error=error+1
+    error=error+1   #Code for error, debugged multiple times
 if error>0:
     print("Error, write a logical operation")
 else:       
