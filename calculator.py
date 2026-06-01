@@ -8,6 +8,7 @@ loopLogic:str
 
 error=0
 loopCounter=1
+
 while loopCounter==1:
     num1=int(input("Enter number 1: "))
     operator=str(input("Enter operation: "))
@@ -28,7 +29,7 @@ while loopCounter==1:
     else:       
         print(num1, operator, num2, "=", finalResult)
     loopLogic=str(input("Do you want to end the loop? Enter Y or N  "))
-    if loopLogic=="Y":  #Can add or for small Y(y) too
+    if loopLogic=="Y" or "y":  
         loopCounter=0
     else:
         loopCounter=1    
