@@ -33,5 +33,5 @@ while loopCounter==1:
         loopCounter=0
     else:
         loopCounter=1    
-
-#Can add a while loop to loop entire calculations. Can also add more operations like floor division and modulus
+print("The loop has ended")
+# Can also add more operations like floor division and modulus
