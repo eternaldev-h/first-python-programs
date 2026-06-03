@@ -22,6 +22,10 @@ while loopCounter==1:
         finalResult=num1+num2
     elif operator=="-":
         finalResult=num1-num2
+    elif operator=="%":
+        finalResult=num1%num2
+    elif operator=="//":
+        finalResult=num1//num2        
     else:
         error=error+1   #Code for error, debugged multiple times
     if error>0:
@@ -29,9 +33,9 @@ while loopCounter==1:
     else:       
         print(num1, operator, num2, "=", finalResult)
     loopLogic=str(input("Do you want to end the loop? Enter Y or N  "))
-    if loopLogic=="Y" or "y":  
+    if loopLogic=="Y" or loopLogic=="y":  
         loopCounter=0
     else:
         loopCounter=1    
 print("The loop has ended")
-# Can also add more operations like floor division and modulus
+
